@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>
+        Assignment 1
+    </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+        <div id="inputs">
+            <form id="myForm">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" onfocus="fieldFocus(event)">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" onfocus="fieldFocus(event)">
+                <label for="city">City</label>
+                <input type="text" id="city" onfocus="fieldFocus(event)">
+                <label for="country">Country</label>
+                <input type="text" id="country" onfocus="fieldFocus(event)">
+                <button id="btn1" onclick="addRowToBottom(event)" type="submit">Add Row to bottom</button>
+                <button id="btn2" onclick="addRowToTop(event)" type="submit">Add Row to top</button>
+            </form>
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <th>SL.No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Shubham</td>
+                        <td>Singh</td>
+                        <td>Aligarh</td>
+                        <td>India</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

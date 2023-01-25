@@ -1,0 +1,13 @@
+table,th,td{
+    border: 2px solid black;
+    padding: 1px 30px;
+    border-collapse: collapse;
+}
+
+table{
+    margin: 3% 0%;
+}
+
+#inputs{
+    margin: 3% 0% 2% 0%;
+}
